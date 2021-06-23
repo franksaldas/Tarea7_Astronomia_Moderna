@@ -1,0 +1,4 @@
+input,f,a,"NGC_1349.tab",,,"input table"
+xaxis,s,a,"SMA",SMA|RSMA,,"x axis"
+device,s,h,"stdgraph",,,"output graphics device"
+mode,s,h,"al",,,

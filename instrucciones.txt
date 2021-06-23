@@ -1,0 +1,15 @@
+source activate iraf27
+xgterm -fn 12*24 -e cl
+!ds9 &
+imexam nombre_de_imagen.fits
+stsdas
+analysis
+isophote
+epar ellipse
+Cambiar parametros
+epar isopall
+input=
+xaxis=SMA
+epar tdump
+table=
+

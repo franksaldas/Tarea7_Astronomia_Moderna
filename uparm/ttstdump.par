@@ -1,0 +1,8 @@
+table,s,a,"NGC_1349.tab",,,"name of table to dump"
+cdfile,s,h,"Columns.txt",,,"output file for column definitions"
+pfile,s,h,"header.txt",,,"output file for header parameters"
+datafile,s,h,"table.txt",,,"output file for table data"
+columns,s,h,"",,,"list of columns to be dumped"
+rows,s,h,"-",,,"range of rows to print"
+pwidth,i,h,-1,-1,,"output page width"
+mode,s,h,"al",,,
